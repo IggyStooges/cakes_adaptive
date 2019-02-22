@@ -1,0 +1,82 @@
+.page-header {
+  position: relative;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  background-color: @main-pink;
+  background-image: url("../img/photoheader.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.page-header__wrapper {
+  padding-top: 35%;
+}
+
+.page-header__top-wrap {
+  display: flex;
+  padding-top: 3%;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.page-header__menu-btn {
+  .button-reset();
+  font-size: 0;
+  width: 18px;
+  height: 14px;
+  background-image: url("../img/burger.png");
+  background-repeat: no-repeat;
+}
+
+.page-header__logo-link {
+  font-size: 16px;
+}
+
+.page-header__header {
+  padding: 0;
+  padding-bottom: 5%;
+  margin: 0 auto;
+  width: 55%;
+  text-align: center;
+  font-weight: normal;
+  line-height: 36px;
+  font-size: 40px;
+  color: @header-color;
+}
+
+.page-header__offer {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: @dark-color;
+}
+
+.page-header__nav {
+  display: none;
+}
+
+.page-header__advantages {
+  .list-reset();
+}
+
+.page-header__advantages-item {
+  padding-left: 15%;
+  padding-bottom: 15%;
+  font-size: 14px;
+
+  &--ingredients {
+    background-image: url("../img/icon-ingredients.png");
+    background-repeat: no-repeat;
+  }
+
+  &--delivery {
+    background-image: url("../img/delivery.png");
+    background-repeat: no-repeat;
+  }
+}
+
+.page-header__сhoose-btn {
+  .user-btn;
+}

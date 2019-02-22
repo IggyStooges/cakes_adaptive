@@ -1,0 +1,35 @@
+{
+  "name": "cakes_adaptive",
+  "version": "15.0.0",
+  "description": "Cakes_adaptiv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IggyStooges/cakes_adaptive.git"
+  },
+  "author": "Lobasov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IggyStooges/cakes_adaptive/issues"
+  },
+  "homepage": "https://github.com/IggyStooges/cakes_adaptive#readme",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp-less": "^4.0.1",
+    "gulp-rename": "^1.4.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-webp": "^4.0.1"
+  }
+}

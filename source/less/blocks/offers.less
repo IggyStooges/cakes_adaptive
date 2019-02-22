@@ -1,0 +1,39 @@
+.offers {
+  background-color: @main-pink;
+}
+
+.offers__header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.offers__wrapper {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.offers__list {
+  .list-reset();
+  width: 100%;
+}
+
+.offers__item {
+  position: relative;
+  padding-bottom: 10%;
+  width: 100%;
+
+  p,
+  h3 {
+    position: relative;
+    z-index: 2;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+}
