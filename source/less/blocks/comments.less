@@ -1,8 +1,9 @@
 .comments {
-  background-color: #fbebea;
+  background-color: @main-pink;
 
   .wrapper {
     padding-top: 5%;
+    padding-bottom: 15%;
   }
 }
 
@@ -21,4 +22,40 @@
   height: 59px;
   margin: 0 auto;
   display: block;
+}
+
+.comments__text {
+  font-size: 12px;
+  text-align: center;
+  display: inline;
+}
+
+.comments__about-author {
+  display: block;
+}
+
+.comments__slider-toggles {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comments__button {
+  .button-reset();
+  padding: 0;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #dddddd;
+
+  &--active {
+    width: 8px;
+    height: 8px;
+    background-color: #f50049;
+  }
 }
