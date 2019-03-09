@@ -397,6 +397,34 @@ body {
   left: 0;
   z-index: 1;
 }
+.advantages {
+  margin-top: -15%;
+}
+.advantages__header {
+  margin: 0;
+}
+.advantages__advantages-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.advantages__advantages-item-header {
+  margin: 0;
+  font-size: 16px;
+}
+.advantages__advantages-description {
+  font-size: 14px;
+}
+.advantages__advantages-item {
+  background-repeat: no-repeat;
+}
+.advantages__advantages-item--ingredients {
+  background-image: url("../img/ingredients.png");
+}
+.advantages__advantages-item--time {
+  background-image: url("../img/cake-icon.png");
+}
 .specials {
   background-color: #fbebea;
 }
@@ -523,6 +551,10 @@ body {
   margin: 0;
   padding: 0;
   width: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .about-us__conditer-contacts li {
   width: 40%;
@@ -642,4 +674,57 @@ body {
   width: 8px;
   height: 8px;
   background-color: #f50049;
+}
+.about-conditer b {
+  font-size: 14px;
+}
+.about-conditer img {
+  display: block;
+  width: 65px;
+  margin: 0 auto;
+  padding-bottom: 25%;
+}
+.about-conditer__header {
+  font-size: 22px;
+}
+.about-conditer__description {
+  font-size: 14px;
+}
+.about-conditer__quote {
+  display: block;
+  background-image: url("../img/quote.png");
+  padding-top: 15%;
+  text-align: center;
+}
+.care {
+  background-color: #fbebea;
+  background-image: url("../img/cake.png");
+  background-repeat: no-repeat;
+}
+.care__description {
+  margin: 0;
+}
+.order-info {
+  background-color: #e3353d;
+  color: #ffffff;
+  padding-top: 15%;
+  padding-bottom: 25%;
+}
+.order-info__header {
+  margin: 0;
+  text-align: center;
+}
+.order-info__info-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.order-info__item-header {
+  font-size: 15px;
+}
+.order-info__item-description {
+  font-size: 14px;
+}
+.order-info__list-item {
+  display: flex;
 }
