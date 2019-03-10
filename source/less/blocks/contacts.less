@@ -1,0 +1,52 @@
+.contacts {
+  background-color: @main-pink;
+  padding-top: 5%;
+
+  input,
+  textarea {
+    .feedback-input();
+    margin-bottom: 5%;
+  }
+}
+
+.contacts__header {
+  margin: 0;
+  text-align: center;
+}
+
+.contacts__feedback {
+  font-size: 14px;
+}
+
+.contacts__submit-btn {
+  .user-btn();
+}
+
+.contacts__telephone,
+.contacts__email,
+.contacts__social-networks {
+  font-size: 14px;
+}
+
+.contacts__social-list {
+  .list-reset();
+  display: flex;
+
+  a {
+    display: block;
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.contacts__social-link {
+  background-repeat: no-repeat;
+
+  &--insta {
+    background-image: url("../img/insta-big.png");
+  }
+
+  &--vk {
+    background-image: url("../img/vk-big.png");
+  }
+}

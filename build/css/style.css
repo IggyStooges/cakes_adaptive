@@ -271,6 +271,16 @@ body {
 .link-text:active {
   color: rgba(0, 0, 0, 0.3);
 }
+.feedback-input {
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  color: black;
+  box-sizing: border-box;
+  border: none;
+}
 .page-header {
   position: relative;
   width: auto;
@@ -578,6 +588,55 @@ body {
 .about-us__conditer-link--twitter {
   background-image: url("../img/twitter.png");
 }
+.page-footer {
+  padding-top: 15%;
+  background-color: #898989;
+}
+.page-footer a {
+  text-decoration: none;
+  color: #000000;
+  color: #ffffff;
+}
+.page-footer__header {
+  margin: 0;
+  color: #ffffff;
+  font-size: 28px;
+}
+.page-footer__social-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  padding: 5% 0;
+}
+.page-footer__social-list a {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  height: 25px;
+}
+.page-footer__social-link {
+  background-repeat: no-repeat;
+}
+.page-footer__social-link--insta {
+  width: 25px;
+  background-image: url("../img/insta-footer.png");
+}
+.page-footer__social-link--vk {
+  width: 35px;
+  background-image: url("../img/vk-footer.png");
+}
+.page-footer__copyright {
+  display: block;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-top: 1px solid #fff;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 12px;
+}
 .your-choice {
   background-color: #fff;
   padding-left: 7%;
@@ -693,6 +752,7 @@ body {
 .about-conditer__quote {
   display: block;
   background-image: url("../img/quote.png");
+  background-repeat: no-repeat;
   padding-top: 15%;
   text-align: center;
 }
@@ -720,6 +780,7 @@ body {
   padding: 0;
 }
 .order-info__item-header {
+  margin: 0;
   font-size: 15px;
 }
 .order-info__item-description {
@@ -727,4 +788,85 @@ body {
 }
 .order-info__list-item {
   display: flex;
+}
+.order-info__list-number {
+  font-size: 35px;
+  margin-right: 5%;
+}
+.contacts {
+  background-color: #fbebea;
+  padding-top: 5%;
+}
+.contacts input,
+.contacts textarea {
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  width: 100%;
+  color: black;
+  box-sizing: border-box;
+  border: none;
+  margin-bottom: 5%;
+}
+.contacts__header {
+  margin: 0;
+  text-align: center;
+}
+.contacts__feedback {
+  font-size: 14px;
+}
+.contacts__submit-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+  box-sizing: border-box;
+  padding: 5% 15%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  background-color: #f62864;
+  color: #fff;
+  font-size: 13px;
+  border-top-left-radius: 18% 40%;
+  border-top-right-radius: 18% 40%;
+  border-bottom-left-radius: 18% 40%;
+  border-bottom-right-radius: 18% 40%;
+}
+.contacts__submit-btn:hover {
+  box-shadow: 0px 5px 7.04px 0.96px rgba(255, 0, 67, 0.3);
+}
+.contacts__telephone,
+.contacts__email,
+.contacts__social-networks {
+  font-size: 14px;
+}
+.contacts__social-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.contacts__social-list a {
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+.contacts__social-link {
+  background-repeat: no-repeat;
+}
+.contacts__social-link--insta {
+  background-image: url("../img/insta-big.png");
+}
+.contacts__social-link--vk {
+  background-image: url("../img/vk-big.png");
+}
+.footer-navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 10% 0;
+}
+.footer-navigation li {
+  padding: 5% 0;
 }
